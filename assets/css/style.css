@@ -6,7 +6,8 @@
     --text-secondary :#ececec;
     --bg-primary :#23232e;
     --bg-secondary: #141418;
-
+    --bg-green : #49df83;
+    --bg-green-dark :#3eac68;
 }
 * {
     margin: 0;
@@ -175,7 +176,7 @@ section{
 .banner{
     position: relative;
     min-height: 100vh;   
-    background: url(banner.jpg);
+    background: url(/assets/img/banner.jpg);
     background-size: cover;
     background-position: right;
     display: flex;
@@ -202,7 +203,7 @@ section{
 }
 .btn{
     position: relative;
-    background: #2196f3;
+    background:  #49df83;
     color: #fff;
     /* margin-top: 20px; */
     top: 20px;
@@ -212,6 +213,10 @@ section{
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: 500;
+    transition: .5s;
+}
+.btn:hover{
+    background:  #3eac68;
 }
 .heading{
     width: 100%;
@@ -271,13 +276,15 @@ section{
 }
 footer {
     text-align: center;
-    padding: 1rem;
-    background-color: #30336b;
-}footer p {
-    /* font-family: ; */
-    font-size: 1rem;
+    /* padding: 1rem; */
+    /* background-color: #30336b; */
 }
-
+.zone{
+    min-height: 200px;
+}
+.zone h1{
+    background-color: #d5df49;
+}
 
 .show{
     width: 16rem;

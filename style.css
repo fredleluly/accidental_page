@@ -283,8 +283,9 @@ footer {
     width: 16rem;
 }
 .active{
-	background-color: var(--second-color);
-	color: var(--first-color);
+    filter: grayscale(0%);
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
 }
 .logoss{
     transform: rotate(-90deg);
